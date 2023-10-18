@@ -40,7 +40,7 @@ main{
     background-color: blue;
     color: white;
     border-radius: 5px;
-    border: solid white;
+    border: solid blue;
     padding: 5px 10px;
     font-weight: 600;
 }
@@ -54,13 +54,92 @@ main{
     color: gray;
     border-radius: 5px;
     background-color: transparent;
-    border: 1px solid black;
+    border: solid gray;
     padding: 5px 10px;
     font-weight: 600;
 }
 
 .bottom{
-    height: 1000px;
+    height: 500px;
     background-color: white;
     border-radius: 15px;
+    padding: 20px 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 8px 0;
+}
+
+.none{
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
+    color: red;
+    margin-right: 5px;
+}
+
+.ok{
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+    color: green;
+    margin-right: 5px;
+}
+
+.bluelabel{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.purplelabel{
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.greenlabel{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.orangelabel{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.pinklabel{
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.lightgreenlabel{
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
 }
